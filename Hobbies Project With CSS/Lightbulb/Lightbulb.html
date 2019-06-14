@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="Lightbulb.css">
+<title>Lightbulb Project</title>
+<div class="topnav">
+    <a class="active" href="E:\Hobbies Project With CSS\Lightbulb\Lightbulb.html">LightBulb</a>
+    <a href="E:\Hobbies Project With CSS\index.html">My Hobbies</a>
+</div>
+
+<body>
+
+    <img id="myImage" onclick="changeImage()"
+        src="https://secure.i.telegraph.co.uk/multimedia/archive/02049/26_2049425i.jpg" width="100" height="180">
+
+    <p>Click the Lightbulb</p>
+
+    <script>
+       function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/lightbulb_on.png")) {
+    image.src = "https://secure.i.telegraph.co.uk/multimedia/archive/02049/26_2049425i.jpg";
+  } else {
+    image.src = "https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/lightbulb_on.png";
+  }
+}
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: purple;
+    text-align: center;
+    font-size: 55px;
+    background-color: pink;
+}
+div {
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    background-color: pink;
+
+}
+body {
+    background-image: url(Tyler\ Gif.gif);
+    background-size: 30%;
+    background-repeat: repeat;
+} 
+link {
+    text-align: center;
+    font-size: 55px;
+    background-color: pink;
+}
